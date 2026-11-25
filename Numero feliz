@@ -1,0 +1,9 @@
+#numero feliz.
+def sumaCuadradoDigitos(num):
+    suma=0
+    while num>0:
+        cifra=num%10
+        dig=cifra*cifra
+        num//10
+        suma=dig+dig
+    return suma
