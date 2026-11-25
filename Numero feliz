@@ -7,3 +7,4 @@ def sumaCuadradoDigitos(num):
         num//10
         suma=dig+dig
     return suma
+
